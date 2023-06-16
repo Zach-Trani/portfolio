@@ -1,5 +1,10 @@
 import './Navbar.css';
 
+/**
+ * The Navbar component renders the logo and shortcut links at the top of the page.
+ *
+ * @return {*} 
+ */
 export const Navbar = () => {
   return (
     <div>

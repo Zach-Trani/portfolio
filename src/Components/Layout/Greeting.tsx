@@ -1,5 +1,10 @@
 import "./Greeting.css";
 
+/**
+ * The Greeting component renders the header of the page and shows the first content a user looks at.
+ *
+ * @return {*} 
+ */
 export const Greeting = () => {
   return (
     <div className="d-flex flex-row greeting-container">
