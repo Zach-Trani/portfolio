@@ -1,12 +1,16 @@
+/* The hero banner the user first sees top and center on home page */
 .greeting-menu {
   width: 80%;
   margin: 8%;
 }
 
+/* Fixed icons leftmost on homepage */
 .left-scroll-content {
   position: fixed;
   margin: 30% 2% 2% 2%;
 }
+
+/* Fixed email contact rightmost on homepage - rotated 90deg */
 .right-scroll-content {
   position: fixed;
   margin: 30% 2% 2% 90%;
