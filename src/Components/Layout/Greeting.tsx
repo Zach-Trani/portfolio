@@ -7,9 +7,9 @@ import "./Greeting.css";
  */
 export const Greeting = () => {
   return (
-    <div className="d-flex flex-row greeting-container">
+    <div className="d-flex flex-column flex-md-column  bg-primary">
 
-      <div className="d-flex flex-column icon-container">
+      <div className="d-flex flex-row flex-md-column left-scroll-content bg-secondary">
         {/* github icon */}
         <a href="https://github.com/Zach-Trani">
           <svg
@@ -61,7 +61,7 @@ export const Greeting = () => {
           in a blog-style format.
         </p>
       </div>
-      <div className="icon-containers">business@gmail.com</div>
+      <div className="right-scroll-content flex-md-column bg-warning">trani.zach@gmail.com</div>
     </div>
   );
 };
