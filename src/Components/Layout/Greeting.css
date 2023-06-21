@@ -29,6 +29,7 @@ p {
 /* Media Queries */
 
 /* Media query for screens below 600px */
+/* No longer want a fixed position on mobile scroll */
 @media (max-width: 768px) {
   
     .left-scroll-content {
