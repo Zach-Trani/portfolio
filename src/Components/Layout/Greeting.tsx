@@ -61,7 +61,7 @@ export const Greeting = () => {
           in a blog-style format.
         </p>
       </div>
-      <div className="icon-containers">business@gmail.com</div>
+      <div className="email-container">business@gmail.com</div>
     </div>
   );
 };
