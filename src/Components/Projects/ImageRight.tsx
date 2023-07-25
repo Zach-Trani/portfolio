@@ -1,7 +1,6 @@
-import { useState } from "react";
 import "./styles/style.css"
 
-// 
+// Image right component displays a preview of the markdown editor project.
 export const ImageRight = () => {
   
     return (
