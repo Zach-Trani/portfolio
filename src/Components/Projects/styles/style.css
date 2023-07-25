@@ -134,6 +134,7 @@ img {
   border-radius: 2px;
   grid-column: 6/-1;
   grid-row: 1/-1;
+  /* scroll material stays fixed in place */
   overflow: hidden;
 }
 @media screen and (max-width: 768px) {
@@ -166,6 +167,7 @@ img {
   position: relative;
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1);
+  /* time can be adjusted */
   transition: all .8s ease-in-out;
   object-fit: cover;
 }
@@ -178,12 +180,14 @@ img {
   }
 } /*# sourceMappingURL=style.css.map */
 
+/* bring image to front of screen on hover */
 .project-img:hover {
   z-index: 10;
   background-color: none;
   background: none;
 }
 
+/* scroll image down on hover - percentage to be adjusted with page size */
 .project-img:hover img {
   filter: none;
   transform: translateY(-10%);
