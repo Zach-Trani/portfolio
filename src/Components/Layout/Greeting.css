@@ -22,6 +22,7 @@ p {
   max-width: 540px;
 }
 
+/* className belongs to social icons */
 .grow {
   transition: all 0.2s ease-in-out;
 }
