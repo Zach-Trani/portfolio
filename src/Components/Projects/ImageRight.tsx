@@ -1,7 +1,9 @@
+import { useState } from "react";
 import "./styles/style.css"
 
 // 
 export const ImageRight = () => {
+  
     return (
         <div className="project-container">
         <div className="project">
@@ -18,7 +20,7 @@ export const ImageRight = () => {
             </div>
           </div>
           <div className="project-img">
-            <img src='./images/test.png' alt="Markdown Project Screen Shot"/>
+            <img src='./images/markdown-screenshot.png' alt="Markdown Project Screen Shot" />
           </div>
         </div>
       </div>
