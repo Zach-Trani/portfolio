@@ -17,11 +17,9 @@ export const ImageRight = () => {
               </ul>
             </div>
           </div>
-          
           <div className="project-img">
             <img src='./images/test.png' alt="Markdown Project Screen Shot"/>
           </div>
-          
         </div>
       </div>
     )
