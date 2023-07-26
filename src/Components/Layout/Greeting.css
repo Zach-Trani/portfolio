@@ -1,23 +1,33 @@
 .greeting-menu {
-    width: 80%;
-    margin: 4% 8% 4% 24%;
+  width: 80%;
+  margin: 4% 8% 4% 24%;
 }
 
 .icon-container {
-    position: fixed;
-    margin: 30% 2% 2% 2%;
+  position: fixed;
+  margin: 30% 2% 2% 2%;
 }
 .email-container {
-    position: fixed;
-    margin: 30% 2% 2% 92%;
-    transform: rotate(90deg);
+  position: fixed;
+  margin: 30% 2% 2% 92%;
+  transform: rotate(90deg);
 }
 
 a {
-    margin: 10px;
+  margin: 10px;
 }
 
 p {
-    margin: 20px 0 0;
-    max-width: 540px;
-  }
+  margin: 20px 0 0;
+  max-width: 540px;
+}
+
+/* className belongs to social icons */
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+/* enlarge icons over mouse hover */
+.grow:hover {
+  transform: scale(1.75);
+}

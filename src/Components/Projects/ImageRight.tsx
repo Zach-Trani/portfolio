@@ -1,7 +1,8 @@
 import "./styles/style.css"
 
-// 
+// Image right component displays a preview of the markdown editor project.
 export const ImageRight = () => {
+  
     return (
         <div className="project-container">
         <div className="project">
@@ -18,7 +19,7 @@ export const ImageRight = () => {
             </div>
           </div>
           <div className="project-img">
-            <img src='./images/test.png' alt="Markdown Project Screen Shot"/>
+            <img src='./images/markdown-screenshot.png' alt="Markdown Project Screen Shot" />
           </div>
         </div>
       </div>
