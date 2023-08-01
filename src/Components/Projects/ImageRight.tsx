@@ -10,11 +10,10 @@ export const ImageRight = () => {
             <div className="project-label">GitHub's Markdown Text</div>
             <h4 className="project-title">Markdown Editor</h4>
             <div className="project-details">
-                <p>Leveraging React's hook system, Markdown Editor lets its users try out different markdown styles and see their creations live!</p>
+                <p>Markdown Editor allows users to experiment with various markdown styles in real-time, providing a live preview of their creative compositions.</p>
                 <ul>
-                <li>Link</li>
-                <li>Code</li>
-                <li>Share</li>
+                <li><a href="https://markdown-editor-zach-trani.vercel.app/">View Project</a></li>
+                <li><a href="https://github.com/Zach-Trani/markdown-editor">Github</a></li>
               </ul>
             </div>
           </div>
