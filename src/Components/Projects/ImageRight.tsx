@@ -12,7 +12,7 @@ export const ImageRight = () => {
             <div className="project-details">
                 <p>Markdown Editor allows users to experiment with various markdown styles in real-time, providing a live preview of their creative compositions.</p>
                 <ul>
-                <li><a href="https://markdown-editor-zach-trani.vercel.app/">View Project</a></li>
+                <li><a href="https://markdown-editor-zach-trani.vercel.app/">View</a></li>
                 <li><a href="https://github.com/Zach-Trani/markdown-editor">Github</a></li>
               </ul>
             </div>
