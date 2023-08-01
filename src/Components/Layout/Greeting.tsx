@@ -1,6 +1,7 @@
 import { ImageRight } from "../Projects/ImageRight";
 import "./Greeting.css";
 
+
 // Greeting component renders the header of the page and shows the first content a user looks at.
 export const Greeting = () => {
   return (
