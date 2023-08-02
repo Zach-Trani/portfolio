@@ -1,19 +1,48 @@
-import "./Contact.css"
+import "./Contact.css";
 
 export const Contact = () => {
-    return (
-        <div className="contact-container">
-            <div className="contact">
-            <form>
-                <h3>Let's Talk</h3>
-                <input type="text" placeholder="Name"></input>
-                <input type="text" placeholder="Email"></input>
-                <textarea placeholder="Message" rows={4}></textarea>
-            </form>
+  return (
+    <div className="contact-container">
+      <div className="contact">
+        <form>
+          <div className="mb-3">
+            <label className="form-label">Name</label>
+            <input
+              type="email"
+              className="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            ></input>
+          </div>
+          <div className="mb-3">
+            <label className="form-label">Email</label>
+            <input
+              type="password"
+              className="form-control"
+              id="exampleInputPassword1"
+            ></input>
+            <div id="emailHelp" className="form-text">
+              We'll never share your email with anyone else.
             </div>
-        </div>
-    )
-}
+          </div>
+          <div className="mb-3">
+            <label className="form-label">
+              Message
+            </label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              rows={4}
+            ></textarea>
+          </div>
+          <button type="submit" className="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+};
 
 // <div>
 //             <div className="d-flex justify-content-center align-items-end credit-container">
